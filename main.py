@@ -10,6 +10,7 @@ bot = telebot.TeleBot(config.TOKEN)
 air_list = []
 airs_dic = {}
 
+# test
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
